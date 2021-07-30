@@ -1,0 +1,35 @@
+legacy:
+  - GOLD_PLATE
+  - IRON_PLATE
+  - STONE_PLATE
+  - WOOD_PLATE
+
+# Enabled plates list.
+plates:
+  - ACACIA_PRESSURE_PLATE
+  - BIRCH_PRESSURE_PLATE
+  - DARK_OAK_PRESSURE_PLATE
+  - HEAVY_WEIGHTED_PRESSURE_PLATE
+  - JUNGLE_PRESSURE_PLATE
+  - LIGHT_WEIGHTED_PRESSURE_PLATE
+  - OAK_PRESSURE_PLATE
+  - SPRUCE_PRESSURE_PLATE
+  - STONE_PRESSURE_PLATE
+noDamage: false
+sound:
+  enable: true
+  # Aviable sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  # 1.12: BLOCK_SLIME_PLACE
+  type: BLOCK_SLIME_BLOCK_PLACE
+  # Volume from 0.0 to 1.0, where 1.0 is max.
+  volume: 0.5
+  # Pitch from 0.5 to 2.0, default: 1.0
+  pitch: 1.8
+
+# Aviable materials: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+pads:
+  DIAMOND_BLOCK: 1.5
+  EMERALD_BLOCK: 2.1
+  GOLD_BLOCK: 1.8
+  IRON_BLOCK: 1.2
+  REDSTONE_BLOCK: 2.5

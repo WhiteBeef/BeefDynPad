@@ -1,0 +1,5 @@
+name: BeefDynPad
+version: ${project.version}
+main: ru.whitebeef.beefdynpad.BeefDynPad
+api-version: 1.16
+authors: [_WhiteBeef_]
