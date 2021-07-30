@@ -73,7 +73,7 @@ public final class BeefDynPad extends JavaPlugin implements Listener {
     }
 
     @EventHandler
-    public void OnPadUse(final PlayerInteractEvent e) {
+    public void onPadUse(final PlayerInteractEvent e) {
         if (!e.getAction().equals(Action.PHYSICAL) || !e.hasBlock())
             return;
         if (!e.getBlockFace().equals(BlockFace.SELF))
